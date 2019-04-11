@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docs:build": "vuepress build"
+    "docs:build": "vuepress build",
+    "docs:dev": "vuepress dev"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,6 @@
   },
   "homepage": "https://github.com/libraminh/minhle#readme",
   "dependencies": {
-    "vuepress": "^0.12.0"
+    "vuepress": "^0.14.10"
   }
 }
