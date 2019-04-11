@@ -1,0 +1,45 @@
+.martech-heading-wrap {
+  display: flex;
+}
+.martech-heading-box {
+  width: calc(100% / 2);
+}
+.martech-heading-link {
+  margin-bottom: 20px;
+  display: block;
+  overflow: hidden;
+}
+.martech-heading-link img {
+  display: block;
+  transition: all .5s ease-in-out;
+}
+.martech-heading-link:hover img {
+  transform: scale(1.1);
+}
+.martech-heading-box-content {
+  margin-bottom: 20px;
+}
+.martech-heading-box:first-child {
+  padding-right: 50px;
+}
+.martech-heading-box:last-child {
+  text-align: right;
+}
+.martech-heading-box-title {
+  margin-bottom: 15px;
+}
+@media (max-width: 992px) {
+  .martech-heading-wrap {
+    flex-direction: column;
+    padding: 50px !important;
+  }
+  .martech-heading-box {
+    width: 100%;
+    padding: 0;
+  }
+}
+@media (max-width: 768px) {
+  .martech-heading-wrap {
+    padding: 20px 15px !important;
+  }
+}

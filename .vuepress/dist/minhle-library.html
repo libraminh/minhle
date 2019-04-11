@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="style/global.css"> -->
+  <link rel="stylesheet" href="style/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div id="masthead-fullscreen" class="masthead-fullscreen">
+    <div class="container">
+      <div class="d-flex align-items-center justify-content-between masthead-header">
+          <a href="#" class="masthead-logo-link">
+            <img src="./images/cd-logo.png" alt="" class="header-logo">
+          </a>
+          <a href="#" class="btn-header">Sign of for free</a>
+        </div>
+        <h2 class="masthead-heading">Data Learning Centre</h2>
+        <div class="my-5 d-flex flex-column flex-sm-row justify-content-center align-items-center masthead-btns">
+          <a href="#" class="masthead-btn btn--white">See Coaurses</a>
+          <a href="#" class="masthead-btn btn--white">Find out more</a>
+        </div>
+        <div class="masthead-content-wrap">
+          <div class="masthead-content-heading">
+            <p>Data is transforming how our competitors approach problems, by empowering them to respond to actionable and even predicted data. How about you?</p>
+          </div>
+          <div class="masthead-content-text">
+            <p>Is your business looking at using the power of data points to your advantage? In 2019, data has become a sustained area of focus among businesses (your competitors included) - but how many are actually doing it right? Most of us know that data can be gathered, presented then acted upon, but what next? What if we told you, it could predict what’s to come, before it happens. Learn and explore the future of data with us, today.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div id="exam-martech" class="row py-5 align-items-center martech-heading-wrap p-100">
+      <div class="col-md-6">
+        <h2 class="martech-heading-box-title">Discover Martech.</h2>
+        <p class="martech-heading-box-content">
+          The Marketing Technology (Martech) series, is a set of articles 
+          that talk about the power of Martech, and how it can help (and 
+          is helping) marketers and teams keep up in the ever-evolving 
+          digital landscape. The articles are listed below.
+        </p>
+      </div>
+      <div class="col-md-6 mt-3 mt-md-0">
+        <a href="" class="martech-heading-link">
+          <img src="./images/heading-banner.jpg" class="w-100" alt="">
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="dlc-login">
+    <div id="particles-js"></div> 
+  
+    <div class="container">
+      <div class="dlc-login-wrap d-flex flex-column flex-md-row justify-content-between align-items-center">
+        <div class="col-12 col-sm-12 col-md-8 mb-5 mb-md-0 dlc-login-information">
+          <h3 class="dlc-login-title">Already signed up?</h3>
+          <h3 class="dlc-login-desc">Access the Data Learning Centre now.</h3>
+        </div>
+        <div class="col-12 col-sm-12 col-md-4 text-left text-md-right dlc-login-btn-wrap">
+          <a href="#" class="masthead-btn btn--white">GET STARTED</a>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script> 
+  <script>
+    particlesJS("particles-js", {"particles":{"number":{"value":43,"density":{"enable":true,"value_area":1893.9543399174545}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":4},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":false,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":5,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":true,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":10,"direction":"none","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"bubble"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = 'absolute'; stats.domElement.style.left = '0px'; stats.domElement.style.top = '0px'; document.body.appendChild(stats.domElement); count_particles = document.querySelector('.js-count-particles'); update = function() { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);;
+  </script>
+
+
+  <div style="height: 1000px;"></div>
+</body>
+</html>

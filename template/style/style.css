@@ -1,0 +1,155 @@
+.center-wrap {
+  max-width: 1092px;
+  float: none;
+  margin: 0 auto;
+  position: relative;
+}
+
+.masthead-fullscreen {
+  background: url(../images/dlc-bg.jpg);
+  padding-bottom: 105px;
+  padding-top: 10px;
+  background-position: top left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.masthead-fullscreen .header-logo {
+  width: 167px;
+}
+
+.masthead-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.masthead-heading {
+  color: #fff;
+  font-size: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-family: CircularStd-Bold, sans-serif;
+  margin-top: 120px;
+  margin-bottom: 0;
+}
+
+.masthead-btn {
+  color: #0a0a0a;
+  font-size: 14px;
+  display: inline-block;
+  line-height: 18px;
+  border-radius: 50px;
+  padding: 10px 40px;
+  margin-right: 15px;
+  font-family: CircularStd-Black, sans-serif;
+  text-transform: uppercase;
+}
+
+.masthead-btn:hover {
+  color: #fff !important;
+  background: #f44a2d !important;
+}
+
+.masthead-btn:last-child {
+  margin-right: 0;
+}
+
+.masthead-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 330px;
+}
+
+.btn--white {
+  background: #fff;
+}
+
+.btn-header {
+  color: #fff;
+  font-size: 14px;
+  line-height: 18px;
+  border: 2px solid #51555b;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border-radius: 50px;
+  padding: 10px 30px;
+  font-family: CircularStd-Black, sans-serif;
+}
+
+.btn-header:hover {
+  color: #0a0a0a;
+  background: #fff;
+  border-color: #fff;
+}
+
+.masthead-content-heading {
+  color: #fff;
+  font-size: 38px;
+  line-height: 48px;
+  font-family: CircularStd-Bold, sans-serif;
+  text-align: center;
+}
+
+.masthead-content-heading p {
+  margin-bottom: 30px;
+}
+
+.masthead-content-text {
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: Rubik-Regular, sans-serif;
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  .center-wrap {
+    padding: 0 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .masthead-heading {
+    font-size: 50px;
+    line-height: 58px;
+  }
+  
+  .masthead-btn {
+    font-size: 12px;
+  }
+  
+  .masthead-content-heading {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  
+  .masthead-content-text {
+    font-size: 12px;
+    line-height: 22px;
+  }
+}
+
+@media (max-width: 450px) {
+  .masthead-btns {
+    flex-direction: column;
+    margin-bottom: 120px;
+  }
+  
+  .masthead-btn {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  
+  .masthead-btn:last-child {
+    margin-bottom: 0;
+  }
+  
+  .btn-header {
+    font-size: 10px;
+    padding: 7px 12px;
+  }
+}
