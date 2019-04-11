@@ -4,7 +4,8 @@
   "description": "Minh Le Blog",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:build": "vuepress build"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/libraminh/minhle/issues"
   },
-  "homepage": "https://github.com/libraminh/minhle#readme"
+  "homepage": "https://github.com/libraminh/minhle#readme",
+  "dependencies": {
+    "vuepress": "^0.12.0"
+  }
 }
