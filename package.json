@@ -1,0 +1,19 @@
+{
+  "name": "minhle-blog",
+  "version": "1.0.0",
+  "description": "Minh Le Blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/libraminh/minhle.git"
+  },
+  "author": "Minh Le",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/libraminh/minhle/issues"
+  },
+  "homepage": "https://github.com/libraminh/minhle#readme"
+}
